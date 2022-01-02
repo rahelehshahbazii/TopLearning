@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211109131703_Mymigration.cs" />
+    <Compile Remove="Migrations\20211109131703_Mymigration.Designer.cs" />
+    <Compile Remove="Migrations\20211109140639_mig_Order.cs" />
+    <Compile Remove="Migrations\20211109140639_mig_Order.Designer.cs" />
+    <Compile Remove="Migrations\20211109140754_Mg_Order.cs" />
+    <Compile Remove="Migrations\20211109140754_Mg_Order.Designer.cs" />
+    <Compile Remove="Migrations\20211109141846_Mig_Order.cs" />
+    <Compile Remove="Migrations\20211109141846_Mig_Order.Designer.cs" />
+    <Compile Remove="Migrations\20211109143102_Mig_Order.cs" />
+    <Compile Remove="Migrations\20211109143102_Mig_Order.Designer.cs" />
+    <Compile Remove="Migrations\20211123143953_Mig_OrderDetail.cs" />
+    <Compile Remove="Migrations\20211123143953_Mig_OrderDetail.Designer.cs" />
+    <Compile Remove="Migrations\20211207173749_ordermig.cs" />
+    <Compile Remove="Migrations\20211207173749_ordermig.Designer.cs" />
+    <Compile Remove="Migrations\20211208045354_order_mig.cs" />
+    <Compile Remove="Migrations\20211208045354_order_mig.Designer.cs" />
+    <Compile Remove="Migrations\20211208050632_order_mig.cs" />
+    <Compile Remove="Migrations\20211208050632_order_mig.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CacheManager.Microsoft.Extensions.Configuration" Version="2.0.0-beta-1629" />
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.4.21253.7" />
+  </ItemGroup>
+
+</Project>
